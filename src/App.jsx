@@ -6,6 +6,7 @@ import VillageIntro from "./pages/VillageIntro";
 import ScenicAreas from "./pages/ScenicAreas";
 import Jobs from "./pages/Jobs";
 import Contact from "./pages/Contact";
+import Suggestions from "./pages/Suggestions";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/scenic-areas" element={<ScenicAreas />} />
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/suggestions" element={<Suggestions />} />
         </Routes>
       </main>
       <Footer />

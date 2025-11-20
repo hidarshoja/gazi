@@ -13,6 +13,7 @@ const Header = () => {
     { path: '/scenic-areas', label: 'مناطق دیدنی' },
     { path: '/jobs', label: 'شغل‌ها' },
     { path: '/contact', label: 'ارتباط با ما' },
+    { path: '/suggestions', label: 'نظرات و پیشنهادات' },
   ];
 
   return (
