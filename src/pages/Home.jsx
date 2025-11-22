@@ -3,6 +3,7 @@ import { useState } from "react";
 import CouncilMeetingsSlider from "../components/CouncilMeetingsSlider";
 import ResidentParticipationSlider from "../components/ResidentParticipationSlider";
 import RoadIssuesSlider from "../components/RoadIssuesSlider";
+import Blessings from "../components/Blessings";
 
 const Home = () => {
   const [openAccordion, setOpenAccordion] = useState(null);
@@ -127,6 +128,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Blessings />
 
       {/* Council Meetings Section */}
       <CouncilMeetingsSlider />
