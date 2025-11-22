@@ -128,10 +128,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Blessings />
 
       {/* Council Meetings Section */}
       <CouncilMeetingsSlider />
+      <Blessings />
 
       {/* Resident Participation Section */}
       <ResidentParticipationSlider />
